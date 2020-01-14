@@ -2,8 +2,13 @@ import React from "react";
 import Card from "./Card";
 
 const CardList = ({robots}) => {
+
+    if (true) {
+        throw new Error('Noooo!');
+    }
+
     if (!robots.length) {
-        return <h1>Loading</h1>
+        return <h1>Loading</h1>;
     } else {
         return (
             <div>

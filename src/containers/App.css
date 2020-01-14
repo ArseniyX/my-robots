@@ -56,6 +56,9 @@ body {
 }
 
 h1 {
-  font-family: "SEGA LOGO FONT", serif;
   color: #67ffa3;
+}
+
+h1 {
+  font-family: "SEGA LOGO FONT", serif;
 }
